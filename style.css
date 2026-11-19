@@ -51,3 +51,53 @@ select{width:100%;font:inherit;padding:10px 12px;border:1px solid var(--bd);bord
 .gt{display:flex;flex-wrap:wrap;gap:2px 8px;justify-content:space-between;font-size:.88rem;margin-bottom:5px}.gn{overflow-wrap:anywhere}
 .bar{display:flex;height:10px;border-radius:6px;overflow:hidden;background:var(--bd)}.bar span{display:block;height:100%}
 .h3{font-size:.8rem;color:var(--mut);margin:14px 0 4px}
+
+/* === Pembaruan: paparan wali baru + mod ustaz lebih mudah === */
+.hero{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:14px;margin-bottom:14px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.av{flex:none;width:48px;height:48px;border-radius:50%;background:var(--pri);color:var(--onpri);display:grid;place-items:center;font-size:1.3rem;font-weight:800}
+.hi{flex:1;min-width:0}.hn{font-weight:700;font-size:1.05rem;overflow-wrap:anywhere}.hm{font-size:.85rem;color:var(--mut)}
+.hl{text-align:right;flex:none}
+.heat{display:grid;grid-template-columns:repeat(auto-fill,minmax(20px,1fr));gap:4px}
+.heat i{display:block;aspect-ratio:1;border-radius:5px}
+.banner{background:var(--sb);color:var(--s);border-radius:10px;padding:10px 12px;font-size:.82rem;font-weight:600;margin-bottom:12px}
+.nav{display:flex;gap:6px;align-items:center;margin-bottom:6px}
+.nav input[type=date]{margin:0;flex:1;min-width:0}
+.dl{font-size:.9rem;font-weight:600;margin:4px 0 10px}
+.qa{display:grid;gap:6px;margin-bottom:6px}
+.er .nmin{margin-bottom:8px}
+.opt{padding:12px 2px;font-size:.8rem}
+.sb{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--bd);padding:10px 16px calc(env(safe-area-inset-bottom,0px) + 10px);display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.85rem}
+.sb button{border:0;border-radius:10px;background:var(--pri);color:var(--onpri);font:inherit;font-weight:700;padding:11px 16px;cursor:pointer}
+body.adm main{padding-bottom:110px}
+
+/* === Hafiz + isi pantas muka surat === */
+.hf{display:inline-block;background:var(--sb);color:var(--s);border-radius:999px;padding:1px 9px;font-size:.72rem;font-weight:700;margin-left:6px;vertical-align:middle;white-space:nowrap}
+.av.hafiz{background:var(--s);box-shadow:0 0 0 3px var(--sb)}
+.nrow{display:flex;gap:6px;margin-bottom:8px}
+.nrow .nmin{margin:0;flex:1;min-width:0}
+.hfb{flex:none;border:1px solid var(--bd);background:var(--bg);color:var(--mut);border-radius:8px;padding:0 12px;font:inherit;font-size:.78rem;font-weight:600;cursor:pointer}
+.hfb.on{background:var(--s);border-color:var(--s);color:var(--bg)}
+.qf{background:var(--bg);border:1px solid var(--bd);border-radius:12px;padding:12px;margin:8px 0 6px}
+.qf .lbl{font-size:.78rem;color:var(--mut);margin:8px 0 4px}
+.nums{display:grid;grid-template-columns:repeat(10,1fr);gap:4px}.nums.five{grid-template-columns:repeat(5,1fr)}
+.nb{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:8px;padding:9px 0;font:inherit;font-size:.82rem;cursor:pointer}
+.nb.on{background:var(--pri);border-color:var(--pri);color:var(--onpri);font-weight:700}
+.fl select{width:100%;margin:0;padding:8px;font-size:.95rem}
+.qa .opt:disabled{opacity:.45}
+:root[data-theme="dark"]{--bg:#121815;--card:#1b241f;--tx:#e8eee9;--mut:#9aa69e;--bd:#2c3831;--pri:#2f8a69;--onpri:#fff;--h:#5fc79b;--hb:#1d3a2c;--t:#ef8a7e;--tb:#432522;--s:#e3b259;--sb:#413219;--i:#7fb1e8;--ib:#1e3350}
+.fl input{font-size:.95rem;padding:8px}
+
+/* === Jadual muka surat tetap === */
+.mtab{background:var(--bg);border:1px solid var(--bd);border-radius:12px;padding:10px 12px;margin:8px 0 6px}
+.mtab summary{font-weight:700;cursor:pointer}
+.mrow{display:grid;grid-template-columns:1fr 86px 86px;gap:6px;align-items:center;padding:7px 0;border-top:1px solid var(--bd)}
+.mrow.mh{border-top:0;font-size:.72rem;color:var(--mut);padding-bottom:2px}
+.mrow .mn{font-size:.84rem;overflow-wrap:anywhere}
+.mrow select{margin:0;padding:8px 6px;font-size:.92rem}
+.fl.one{grid-template-columns:1fr}
+.mt{font-size:.8rem;color:var(--mut);margin-top:6px}.mt b{color:var(--tx)}.mt span{font-size:.72rem}
+
+/* === Logo + tempoh 1 tahun === */
+.heat.sm{grid-template-columns:repeat(auto-fill,minmax(13px,1fr));gap:3px}
+.heat.sm i{border-radius:3px}
+.fl.two{grid-template-columns:1fr 1fr}
